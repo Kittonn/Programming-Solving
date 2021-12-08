@@ -1,1 +1,1 @@
-int(num[0]) + int(num[1])
+m-n
