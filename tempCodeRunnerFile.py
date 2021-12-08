@@ -1,1 +1,1 @@
-คิดเป็นร้อยละ : {:.1f}%'.format(num,p))
+int(num[0]) + int(num[1])
