@@ -1,2 +1,1 @@
-n = int(input())
-print(int(n/5)+1)
+{}\nATK : {}\nHP : {}'.format(lv,exp,atk,hp))
