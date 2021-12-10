@@ -1,3 +1,2 @@
-pas = input()
-for i in pas:
-    if i.lower()
+
+for i in range(3):
