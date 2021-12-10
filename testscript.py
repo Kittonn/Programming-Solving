@@ -1,3 +1,2 @@
-t = {'a':2,'b':2}
-print(max(t.values()))
-print(min(t.values()))
+if '9' in '19':
+    print('xxx')
