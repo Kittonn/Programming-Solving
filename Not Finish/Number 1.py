@@ -11,5 +11,6 @@ for i in str(sum(b)):
         for i in str(ans[-1]):
             s += int(i)
             ans.append(s)
-            
+print(sum(b))
+print(ans)
 print(ans[-1])

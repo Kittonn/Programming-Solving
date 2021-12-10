@@ -15,5 +15,6 @@ for i in range(len(data)):
             if j == k:
                 ans.append(data[i][j])
                 break
+print(ans)
 data1 = []
 print('''''')
