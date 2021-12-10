@@ -1,0 +1,16 @@
+ans = []
+n =int(input())
+if n < 0:
+    print('ไม่สามารถหาค่าได้')
+else:
+    for Number in range (1, n+1):
+        count = 0
+        for i in range(2, (Number//2 + 1)):
+            if(Number % i == 0):
+                count = count + 1
+                break
+
+        if (count == 0 and Number != 1):
+            ans.append(str(Number))
+    x = ', '.join(ans)
+    print('จำนวนเฉพาะในช่วง 0 ถึง {}\nมีอยู่ {} จำนวน'.format(n,len(ans)))
