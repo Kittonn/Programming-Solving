@@ -1,9 +1,1 @@
-txt = input()
-sl = input()
-for i in txt:
-    if len(sl) == 1:
-        print(i,end='')
-        if (i == sl):
-            print(f'\n{i}',end='')
-    else:
-           
+data = {'Fire':0,'Water':1,'Wind':2,'Ground':3,'Light':4,'Dark':5}
