@@ -1,5 +1,1 @@
-a = int(input())
-b = int(input())
-a_b = str(a + b)
-new = ''.join(reversed(a_b))
-print(new)
+up=0;lo=0;num=0;sym=0
