@@ -1,13 +1,8 @@
-num = input()
-ans = []
-s = 0
-for i in num:
-    s += int(i)
-    ans.append(s)
-    if (ans[-1] > 10):
-        s = 0
-        for i in str(ans[-1]):
-            s += int(i)
-            ans.append(s)
-            
-print(ans[-1])
+num = [int(i) for i in input()]
+s = sum(num)
+
+while len(str(s)) != 1:
+    num = [int(i) for i in str(s)]
+    s = sum(num)
+
+print(s)

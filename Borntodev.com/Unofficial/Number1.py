@@ -1,7 +1,6 @@
-a = list(input())
-#n = [ord(i) for i in a]
+a = list(input().encode('ascii'))
 
-num = [ord(i)**3 for i in a]
+num = [i**len(a) for i in a]
 s = sum(num)
 
 while len(str(s)) != 1:
@@ -9,4 +8,3 @@ while len(str(s)) != 1:
     s = sum(num)
 
 print(s)
-    
