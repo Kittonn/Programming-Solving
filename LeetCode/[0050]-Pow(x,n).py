@@ -6,6 +6,5 @@ class Solution(object):
         :type n: int
         :rtype: float
         """
-        ans = int('{:.5f}'.format(math.pow(x,n)))
+        ans = float('{:.5f}'.format(math.pow(x,n)))
         return ans
-        
