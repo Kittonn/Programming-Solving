@@ -1,11 +1,10 @@
 class Solution(object):
-    def myPow(self, x, n):
-        import math
+    def isPowerOfTwo(self, n):
         """
-        :type x: float
         :type n: int
-        :rtype: float
+        :rtype: bool
         """
-        ans = int('{:.5f}'.format(math.pow(x,n)))
-        return ans
-        
+        if n % 2 == 0:
+            return True
+        else:
+            return False

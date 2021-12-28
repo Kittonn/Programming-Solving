@@ -1,11 +1,5 @@
-class Solution(object):
-    def addStrings(self, num1, num2):
-        """
-        :type num1: str
-        :type num2: str
-        :rtype: str
-        """
-        
-        return str(int(num1) + int(num2))
-        
-print(Solution.addStrings('',"11","123"))
+for i in range(1,4+1):
+    for j in range(i):
+        print('*',end='')
+    print()
+    
