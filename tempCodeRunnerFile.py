@@ -1,1 +1,0 @@
-[index]+ans[index+1])/2)
