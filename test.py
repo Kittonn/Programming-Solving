@@ -1,10 +1,5 @@
-class Solution(object):
-    def isPowerOfTwo(self, n):
-        """
-        :type n: int
-        :rtype: bool
-        """
-        if n % 2 == 0:
-            return True
-        else:
-            return False
+n = 4
+c = 0
+for i in range(1,n+1):
+    if n % i == 0:
+        c+=1
