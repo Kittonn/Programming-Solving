@@ -1,19 +1,16 @@
 class Solution(object):
-    def containsDuplicate(self, nums):
+    def twoSum(self, numbers, target):
         """
-        :type nums: List[int]
-        :rtype: bool
+        :type numbers: List[int]
+        :type target: int
+        :rtype: List[int]
         """
-        dic = {}
-        for i in nums:
-            if i not in dic:
-                dic[i] = 1
-            else:
-                dic[i] += 1
-        x = sorted(dic.values())
-        if x[-1] >= 2:
-            return True
-        else:
-            return False
-            
-      
+        ans = []
+        for i in range(len(numbers)):
+            for j in range(i):
+                if numbers[i] + numbers[j] == target:
+                    ans.append(i+1)     
+                    ans.append(j+1)
+        return sorted(ans)
+    
+print(Solution.twoSum('',[2,7,11,15],9))
