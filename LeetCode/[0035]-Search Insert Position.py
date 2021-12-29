@@ -6,7 +6,7 @@ class Solution(object):
         :rtype: int
         """
         if target not in nums:
-            nums.append(nums)
+            nums.append(target)
         
         nums.sort()
         for i in range(len(nums)):

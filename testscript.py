@@ -1,5 +1,3 @@
-for i in range(1,4+1):
-    for j in range(i):
-        print('*',end='')
-    print()
-    
+c = [1,3,2,4]
+c.sort()
+print(c)
