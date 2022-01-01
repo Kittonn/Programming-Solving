@@ -1,4 +1,0 @@
-# Programming-Solving
-
-### 🔴 Lambangchang Kittipod
-
