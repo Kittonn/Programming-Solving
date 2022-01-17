@@ -8,4 +8,4 @@ Name | Folder
 [LeetCode](https://leetcode.com/) | [LeetCode](https://github.com/lnwtxn/Programming-Solving/tree/master/LeetCode)
 [ClashofCode](https://www.codingame.com/clashofcode) | [ClashofCode](https://github.com/lnwtxn/Programming-Solving/tree/master/ClashofCode)
 
-`© Lambangchang Kittipod`
+`© Lambangchang Kittipod.`
