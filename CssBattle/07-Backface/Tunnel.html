@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tunnel</title>
+    <style>
+        body {
+            margin: 0;
+            background: #6592CF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #o {
+            background: #243D83;
+            width: 250px;
+            height: 250px;
+
+        }
+
+        #c {
+            background: #6592CF;
+            width: 150px;
+            height: 150px;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(15deg);
+        }
+
+        #i {
+            background: #243D83;
+            width: 75px;
+            height: 75px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(15deg);
+        }
+    </style>
+</head>
+<body>
+    <div id="o">
+        <div id="c">
+            <div id="i"></div>
+        </div>
+    </div>
+</body>
+</html>
