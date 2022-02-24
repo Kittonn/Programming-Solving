@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye of the Tiger</title>
+    <style>
+        body {
+            margin: 0;
+            background: #0B2429;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #o {
+            background: #998235;
+            width: 200px;
+            height: 200px;
+            border-radius: 0 100px;
+            transform: rotate(-45deg);
+        }
+
+        #ot {
+            background: #F3AC3C;
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            border: 20px solid #0B2429;
+        }
+
+        #i {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: #0B2429;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="o">
+        <div id="ot">
+            <div id="i"></div>
+        </div>
+    </div>
+</body>
+</html>
