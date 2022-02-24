@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiggly Moustache</title>
+    <style>
+        body {
+            margin: 0;
+            background: #F5D6B4;
+        }
+
+        .b {
+            position: fixed;
+            top: 150px;
+            left: 70px;
+            width: 60px;
+            height: 30px;
+            border-radius: 0 0 50px 50px;
+            border: 20px solid #D86F45;
+            border-top: 0;
+        }
+
+        #t {
+            margin-top: -50px;
+            margin-left: 80px;
+            transform: rotate(180deg);
+        }
+
+        #r {
+            margin-left: 160px
+        }
+
+        #r:after,
+        #l:before {
+            content: "";
+            width: 20px;
+            height: 10px;
+            background: #D86F45;
+            position: absolute;
+            top: -10px;
+            border-radius: 20px 20px 0 0;
+        }
+
+        #r:after {
+            left: 60px;
+        }
+
+        #l:before {
+            left: -20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="b" id="l"></div>
+    <div class="b" id="t"></div>
+    <div class="b" id="r"></div>
+</body>
+</html>
