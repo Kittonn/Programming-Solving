@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Cut</title>
+    <style>
+        body {
+            margin: 0;
+            background: #F3AC3C;
+        }
+
+        #b {
+            z-index: 2;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            margin-left: 120px;
+            margin-top: -20px;
+            border: 30px solid #F3AC3C;
+            transform: rotate(45deg);
+        }
+
+        #o {
+            z-index: 1;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(45deg);
+            width: 100px;
+            height: 100px;
+            border: 30px solid #998235;
+
+        }
+
+        #i {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background: #1A4341;
+            z-index: 3;
+            transform: translate(-50%, -50%) rotate(45deg);
+            top: 50%;
+            left: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="b"></div>
+    <div id="o"></div>
+    <div id="i"></div>
+</body>
+</html>
